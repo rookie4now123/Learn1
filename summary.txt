@@ -1,0 +1,27 @@
+1. 进入要管理的目录
+2. git.int 初始化   让GIT帮助我们管理当前文件夹
+3. git status 检测当前目录下文件的状态
+4. 三种状态变化
+	红色：新增／修改　－》git add filename
+	绿色： git 已经管理 -》 git commit -m '版本名’
+	生成版本
+
+命令总结
+	查看分支
+	git branch
+	
+	创建分支
+	git branch 分支名
+
+	切换分支
+	git checkout 分支名
+	
+	分支合并（可能产生冲突）
+	git merge 分支名
+	PS：若把A并到B，则需切换到B，再进行合并
+
+	删除分支
+	git branch -d 分支名
+
+
+	
